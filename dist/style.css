@@ -627,6 +627,10 @@ video {
   height: 12rem;
 }
 
+.h-auto {
+  height: auto;
+}
+
 .w-12 {
   width: 3rem;
 }
@@ -719,6 +723,11 @@ video {
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.object-fill {
+  -o-object-fit: fill;
+     object-fit: fill;
 }
 
 .p-2 {
